@@ -1,0 +1,250 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+
+header{
+	width: 100%;
+	height: 0.88rem;
+	background: #53a6f2;
+}
+header .left{
+	width: 1.88rem;
+	height: 0.64rem;
+	float: left;
+	margin-left: 2.8rem;
+	margin-top: 0.08rem;
+}
+header .left h3{
+	font-size: 0.32rem;
+	color: #fff;
+    margin-left: 0.4rem;
+}
+header .left h4{
+	font-size: 0.18rem;
+	color: #fff;
+	
+}
+header .right{
+	float: right;
+	margin-right: 0.24rem;
+	font-size: 0.34rem;
+	color: #fff;
+	margin-top: 0.24rem;
+}
+/* nav开始 */
+nav{
+	width: 100%;
+	height: 3.8rem;
+	margin-top: -0.05rem;
+}
+nav img{
+	width: 100%;
+	height: 100%;
+}
+/* money */
+.money{
+	width: 100%;
+	height: 100%;
+	margin-top: 0.6rem;
+	display: flex;
+	justify-content: space-around;
+}
+.money .left{
+	width: 3.1rem;
+	height: 1.22rem;
+	border-radius: 0.2rem;
+	background: #eceaea;
+    margin-left: -0.1rem;
+    
+}
+.money .left:hover{
+
+	color: #fff;
+}
+.money .left i{
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background: #25f451;
+	box-shadow: 0 0.15rem 0.3rem rgba(37,244, 81, 0.3);
+
+	font-size: 0.32rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.5rem;
+	margin-left: 0.2rem;
+	margin-right: 0.1rem;
+	float: left;
+	margin-top: 0.4rem;
+
+}
+.money  h3{
+	font-size: 0.24rem;
+	color: #1a1a1a;
+	float: left;
+	margin-top: 0.3rem;
+}
+.right h4{
+	font-size: 0.18rem;
+	color: #bcbaba;
+	margin-top: 0.6rem;
+	margin-right: 0.5rem;
+
+}
+.left h4{
+	font-size: 0.18rem;
+	color: #bcbaba;
+	float: left;
+}
+.money .right{
+	width: 3.1rem;
+	height: 1.22rem;
+	border-radius: 0.2rem;
+	background: #eceaea;
+    margin-left: -0.4rem;
+    
+}
+.money .right i{
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background: #53a6f2;
+
+
+	font-size: 0.32rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.5rem;
+	margin-left: 0.1rem;
+	margin-right: 0.1rem;
+	float: left;
+	margin-top: 0.4rem;
+
+}
+.money .right:hover{
+	
+	color: #fff;
+}
+.bottom{
+	width: 100%;
+	height: 0.78rem;
+	margin-top: 0.3rem;
+	margin-left:0rem;
+}
+.bottom img{
+	width: 100%;
+	height: 100%;
+}
+/* main开始 */
+main{
+	width: 100%;
+	margin-top: 0.7rem;
+}
+main ul li{
+	width:6.66rem ;
+	height:1.12rem ;
+	border-radius: 0.3rem;
+	background: #eceaea;
+	margin-left: 0.4rem;
+	margin-top: 0.6rem;
+	padding-top: 0.1rem;
+}
+main ul li i{
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background: #f88f07;
+	box-shadow: 0 0.15rem 0.3rem rgba(248, 143, 7, 0.3);
+	font-size: 0.26rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.5rem;
+	float: left;
+	margin-left: 0.2rem;
+	margin-right: 0.2rem;
+	margin-top: 0.2rem;
+}
+
+main ul li h4{
+
+	font-size: 0.16rem;
+	color: #a6a2a2;
+	
+	
+	margin-top: 0.2rem;
+}
+main ul li h3{
+    width: 2.5rem;
+    height: 0.3rem;
+	font-size: 0.20rem;
+	color: #060606;
+	text-align: center;
+	line-height: 0.3rem;
+	margin-left: 0.2rem;
+	margin-top: 0.1rem;
+}
+main ul li .box{
+	width: 0.6rem;
+	height: 0.22rem;
+	border-radius: 0.11rem;
+	background: #f88f07;
+	box-shadow: 0 0.15rem 0.3rem rgba(248, 143, 7, 0.3);
+	font-size: 0.24rem;
+	color: #fff;
+	float: right;
+	margin-right: 0.24rem;
+	margin-top: -0.5rem;
+	text-align: center;
+	line-height: 0.22rem;
+}
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 0.98rem;
+	background: #fff;
+	/* margin-top: 0.2rem; */
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+footer ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+footer ul li{
+	width: 0.76rem;
+	height: 0.76rem;
+	border-radius: 50%;
+	background: #cdcdcd;
+	border: 0.02rem solid #6d6d6d;
+	position: relative;
+}
+footer ul li i{
+	font-size: 0.4rem;
+	color: #000;
+    position: absolute;
+    top: 0.2rem;
+    left: 0.2rem;
+}
+footer ul li:nth-child(4){
+	background: #53a6f2;
+}
+footer ul li:hover{
+	background:#53a6f2 ;
+}
+footer ul li:hover i{
+	color: #fff;
+}
+
+/* 底部结束 */

@@ -1,0 +1,143 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+i{
+    font-style: normal;
+}
+
+
+.beijing{
+    width: 100%;
+    height: 1334px;
+    background-image: url("../img/bj1.png");
+
+}
+
+
+header{
+    width: 100%;
+    height: 88px;
+    
+}
+
+header .top{
+    width: 100%;
+
+    /* background: #ff2b66; */
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+header .top a{
+    display: block;
+    width: 120px;
+    height:40px;
+    border-radius: 20px;
+    background: #bdc9d4;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 20px;
+    
+}
+
+nav{
+    width: 100%;
+    height: 200px;
+    
+    margin: 0 auto;
+    margin-top: -25px;
+
+}
+nav img{
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+}
+/* main */
+main{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+main ul li h3{
+    font-size:26px;
+    color: #000;
+    margin-left: 24px;
+    margin-bottom: 10px;
+}
+main ul li .box{
+    width: 360px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 10px auto;
+    /* background: blue; */
+    border: 2px solid #bbb9b9;
+    display: flex;
+    margin-top: 60px;
+}
+
+main ul li .box .left{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #bdc9d4;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    /* float: left; */
+    margin-left: 10px;
+    margin-top: 20px;
+}
+main ul li .box .right{
+    width: 80px;
+    height: 100px;
+    /* float: left; */
+    margin-left: 20px;
+}
+main ul li .box .right input{
+    outline: none;
+    border: none;
+    width:200px;
+    height: 30px;
+}
+
+
+/* footer */
+footer{
+    width: 98px;
+    margin-top: 20px;
+    margin-bottom: 0.3rem;
+}
+footer i{
+
+    font-size: 40px;
+    color: red;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+footer h3{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background:red;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+    margin-left:128px;
+    margin-top: 18px;
+
+}
